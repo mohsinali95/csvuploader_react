@@ -47,3 +47,6 @@ div > ul > li > a > i{
 .activeClass .linkName {
     color: white;
 }
+.navShadow{
+    box-shadow: 0 4px 5px 2px #d8d8d8;
+}

@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 
 export default function Navbar() {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-white p-0">
+        <nav className="navbar navbar-expand-lg navbar-light bg-white p-0 navShadow">
             <div className="logoDiv">
                 <a className="navbar-brand logoName" href="#">INDIGO</a>
             </div>
