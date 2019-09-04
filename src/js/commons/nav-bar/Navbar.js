@@ -30,14 +30,14 @@ export default function Navbar() {
 
                 <img className="rounded-circle" src="http://placehold.it/32x32" ></img>
 
-                <div class="nav-item dropdown pr-2">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <div className="nav-item dropdown pr-2">
+                    <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Syed Mohsin Ali
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Another action</a>
+                    <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a className="dropdown-item" href="#">Action</a>
+                        <div className="dropdown-divider"></div>
+                        <a className="dropdown-item" href="#">Another action</a>
                     </div>
                 </div>
             </div>

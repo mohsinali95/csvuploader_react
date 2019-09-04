@@ -1,0 +1,8 @@
+.cardWidth{
+    width: 250px;
+    min-width: 200px;
+}
+
+.cardShadow{
+    box-shadow: 0 4px 5px 2px #d8d8d8;
+}
