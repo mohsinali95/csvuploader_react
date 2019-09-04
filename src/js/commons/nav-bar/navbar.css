@@ -1,0 +1,49 @@
+.logoDiv{
+    width: 185px;
+    text-align: center;
+}
+.logoDiv .logoName{
+    font-size: 30px;
+    color: #0eaa4b !important;
+}
+#navbarSupportedContent{
+    /* background: aqua; */
+    height: 55px;
+}
+.navInnerDiv > ul > li > .n{
+    height: 55px;
+    /* width: 205px; */
+    text-align: center;
+    font-size: 17px;
+    color: black;
+}
+.navLi{
+    height: 55px;
+    width: 185px;
+    text-align: center
+}
+.navUl{
+    height: 55px;
+}
+
+div > ul > li > a > i{
+    color: black;
+    font-size: 21px;
+    padding: 5px;
+}
+
+.activeClass  {
+    background: #0eaa4b;
+;
+    
+
+}
+.linkName{
+    color: black; font-size: 14px;
+     position: relative;
+     top: -3 !important
+}
+
+.activeClass .linkName {
+    color: white;
+}
