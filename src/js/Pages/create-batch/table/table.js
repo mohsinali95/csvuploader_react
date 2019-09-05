@@ -12,7 +12,7 @@ class Table extends Component {
 
                 <table className="table">
                     <tr className="bg-light" >
-                        <td colSpan="3" className="text-center">
+                        <td colSpan="3" className="text-center lead">
                             Below Columns should only contains following items in their field
                         </td>
                     </tr>

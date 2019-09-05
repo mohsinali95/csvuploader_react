@@ -20,15 +20,15 @@ class CreateBatch extends React.Component {
                     </div>
                     <div className="w-50 d-flex flex-column justify-content-around  p-2">
                         <h3>Instructions</h3>
-                        <h5>
+                        <p className="lead">
                             1) Fields Marked * are mandatory in all situations
-                            </h5>
-                        <h5>
+                            </p>
+                        <p className="lead">
                             2) If CNIC is selected in Transfer to, additional mandatory fields are: CNIC
-                            </h5>
-                        <h5>
+                            </p>
+                        <p className="lead">
                             2) If Bank is selected in Transfer to, additional mandatory fields are: Bank Name & IBAN
-                            </h5>
+                            </p>
                         <Table></Table>
                     </div>
                 </div>
