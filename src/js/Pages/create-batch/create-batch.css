@@ -1,3 +1,12 @@
 .btnWidth{
     width: 20rem
 }
+
+.cardDiminsions{
+    height: 300px;
+    width: 400px;
+}
+
+.cardDiminsions .btnWidth{
+    width: 23rem
+}
