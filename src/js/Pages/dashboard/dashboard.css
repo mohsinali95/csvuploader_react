@@ -1,0 +1,10 @@
+.dashboard .datatableShadow{
+    background-color: white;
+    box-shadow: 0 4px 5px 2px #d8d8d8;
+    width: 95%;
+    height: 70vh;
+}
+
+.dashboard .cardDiv{
+    width: 95%
+}
