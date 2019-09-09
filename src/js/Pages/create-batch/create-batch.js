@@ -25,7 +25,7 @@ class CreateBatch extends React.Component {
             )
         } else {
             return (
-                <div className="d-flex justify-content-center"  >
+                <div className="d-flex justify-content-center create-batch"  >
 
                     <div className="bg-white rounded d-flex flex-row mt-3 mb-3 cardShadow" style={{ width: '95%' }}>
                         <div className="w-50 d-flex flex-column border border-top-0 border-left-0 border-bottom-0 m-3 align-items-center  justify-content-center">

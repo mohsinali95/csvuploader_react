@@ -1,0 +1,48 @@
+.report{
+    height: 100vh;
+}
+
+.report-card-row .report-card{
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 100px;
+}
+
+.report-card-row .report-card-green{
+    border: 2px solid #28a745;
+    border-radius: 10px;
+    height: 100px;
+}
+
+.report-card-table-view{
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 5px 2px #d8d8d8;
+}
+
+.report-btn-view .btn-width{
+    width: 10rem;
+    height: 3rem;
+}
+
+.approved-modal{
+    height: 150px;
+}
+
+.disapproved-modal{
+    height: 250px;
+}
+
+.disapproved-modal .modal-btn{
+    width: 13rem;
+    height: 3rem;
+}
+
+.disapproved-modal textarea{
+    resize: none
+}
+
+.approved-modal .modal-btn{
+    width: 10rem;
+    height: 3rem;
+}

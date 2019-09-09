@@ -1,4 +1,9 @@
-.btnWidth{
+.create-batch{
+    background-color:#f0f0f0;
+    height: 100vh;
+}
+
+.create-batch .btnWidth{
     width: 20rem
 }
 
