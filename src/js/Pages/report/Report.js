@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import './report.css'
 import ReportCard from './report-card/ReportCard'
 import { Modal } from 'antd';
+import ReportDataTable from './report-data-table/ReportDataTable';
 
 class Report extends Component {
 
@@ -50,7 +51,7 @@ class Report extends Component {
                     <ReportCard name={'Ishap Kothawala'} date={'Feb 27,2019'} byText={'Authority'} isLast={true}></ReportCard>
                 </div>
                 <div className='report-card-table-view m-4'>
-
+                    <ReportDataTable></ReportDataTable>
                 </div>
                 <div className='report-btn-view row m-4'>
                     <div className='col-md-4'>
