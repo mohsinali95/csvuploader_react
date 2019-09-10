@@ -3,25 +3,32 @@ import { connect } from 'react-redux';
 import Table from './table/table';
 import "./create-batch.css"
 import SuccessUpload from './success-upload/SuccessUpload';
+import ErrorUpload from './error-upload/ErrorUpload';
 
 class CreateBatch extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
-            uploadSuccess: false
+            uploadSuccess: false,
+            uploadError: false
         }
     }
-    changeUploadStatus(value){
+    changeUploadStatus(value) {
         this.setState({
-            uploadSuccess: value
+            uploadSuccess: value,
+            uploadError: value
         })
     }
     render() {
-        let { uploadSuccess } = this.state
+        let { uploadSuccess, uploadError } = this.state
 
         if (uploadSuccess) {
             return (
                 <SuccessUpload onViewClick={this.changeUploadStatus.bind(this)}></SuccessUpload>
+            )
+        } else if (uploadError) {
+            return (
+                <ErrorUpload></ErrorUpload>
             )
         } else {
             return (
@@ -34,7 +41,7 @@ class CreateBatch extends React.Component {
                             <button className="btn btn-success btnWidth">
                                 <i className="fa fa-cloud-upload mr-2" style={{ fontSize: 25 }} ></i>SELECT FROM COMPUTER
                                     </button>
-                            <button onClick={() => { this.setState({ uploadSuccess: true }); }} className="btn btn-outline-success btnWidth mt-3">
+                            <button onClick={() => { this.setState({ uploadSuccess: true, uploadError: false }); }} className="btn btn-outline-success btnWidth mt-3">
                                 SUBMIT
                                     </button>
                         </div>
