@@ -182,7 +182,7 @@ class ReportDataTable extends Component {
             },
         ];
         return (
-            <Table columns={columns} bordered dataSource={data} pagination={{ pageSize: 10 }} scroll={{ x: 2500, y: 350 }} />
+            <Table columns={columns} size='small'  dataSource={data} pagination={{ pageSize: 10 }} scroll={{ x: 'max-content', y: 350 }} />
         );
     }
 }

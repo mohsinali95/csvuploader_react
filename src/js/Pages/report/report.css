@@ -46,3 +46,6 @@
     width: 10rem;
     height: 3rem;
 }
+.report-card-table-view .ant-table-header{
+    background: #f2f3f6 !important;
+}

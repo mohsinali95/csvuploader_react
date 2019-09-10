@@ -1,13 +1,15 @@
 .dashboard{
     background-color:#f0f0f0;
-
+    height: 110vh;
 }
 
 .dashboard .datatableShadow{
     background-color: white;
     box-shadow: 0 4px 5px 2px #d8d8d8;
-    width: 95%;
-    height: 70vh;
+}
+
+.datatableShadow .ant-table-header{
+    background: #f2f3f6 !important;
 }
 
 .dashboard .cardDiv{

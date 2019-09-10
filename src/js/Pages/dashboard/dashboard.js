@@ -7,8 +7,8 @@ import "./dashboard.css"
 class Dashboard extends React.Component {
     render() {
         return (
-            <div className="d-flex flex-column justify-content-around align-items-center dashboard" style={{ height: "100vh" }} >
-                <div className='cardDiv'>
+            <div className="dashboard" >
+                <div className='cardDiv m-4'>
                     <div className="card-deck">
                         <Card title={"Completed"} number={"2529"}></Card>
                         <Card title={"Auditor Review"} number={"15"}></Card>
@@ -16,7 +16,7 @@ class Dashboard extends React.Component {
                         <Card title={"Disapproved"} number={"50"}></Card>
                     </div>
                 </div>
-                <div className="datatableShadow d-flex flex-column pl-3 pr-3 justify-content-center">
+                <div className=" m-2 datatableShadow ">
                     <Datatable></Datatable>
                 </div>
             </div>

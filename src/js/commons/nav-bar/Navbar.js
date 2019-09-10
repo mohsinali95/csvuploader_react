@@ -23,7 +23,7 @@ export default function Navbar() {
                     <li className="nav-item active navLi">
                         <NavLink to="/create-batch" exact={true} className="nav-link n" activeClassName='activeClass' >
 
-                            <i className="fa fa-home linkName" style={{ fontSize: 26 }}></i> <span className="linkName" style={{ top: -3 }} >Create New Batch</span>
+                            <i className="fa fa-download linkName" style={{ fontSize: 26 }}></i> <span className="linkName" style={{ top: -3 }} >Create New Batch</span>
                         </NavLink>
                     </li>
                 </ul>
