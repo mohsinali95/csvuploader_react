@@ -12,6 +12,19 @@
     width: 400px;
 }
 
+.create-batch .upload-btn-wrapper{
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.upload-btn-wrapper input[type=file] {
+    width: 23rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+  }
 .cardDiminsions .btnWidth{
     width: 23rem
 }
